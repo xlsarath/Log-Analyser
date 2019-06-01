@@ -112,7 +112,9 @@ for (word, count) in output:
 
 spark.stop()
 
- 
+
+execution: 
+ spark-submit /Users/sarathchandra/Desktop/reference-apps/logs_analyzer/chapter1/python/databricks/apps/logs/log_analyzer.py /Users/sarathchandra/Desktop/reference-apps/logs_analyzer/data/access_log --executor-cores 4 --num-executors 20 &> output_sar.txt
 
  
 
