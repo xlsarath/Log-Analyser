@@ -1,0 +1,119 @@
+19/04/26 06:40:39 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+19/04/26 06:40:43 INFO SparkContext: Running Spark version 2.4.1
+19/04/26 06:40:43 INFO SparkContext: Submitted application: log_analyzer Parser
+19/04/26 06:40:44 INFO SecurityManager: Changing view acls to: sarathchandra
+19/04/26 06:40:44 INFO SecurityManager: Changing modify acls to: sarathchandra
+19/04/26 06:40:44 INFO SecurityManager: Changing view acls groups to: 
+19/04/26 06:40:44 INFO SecurityManager: Changing modify acls groups to: 
+19/04/26 06:40:44 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(sarathchandra); groups with view permissions: Set(); users  with modify permissions: Set(sarathchandra); groups with modify permissions: Set()
+19/04/26 06:40:50 INFO Utils: Successfully started service 'sparkDriver' on port 53902.
+19/04/26 06:40:50 INFO SparkEnv: Registering MapOutputTracker
+19/04/26 06:40:50 INFO SparkEnv: Registering BlockManagerMaster
+19/04/26 06:40:50 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+19/04/26 06:40:50 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+19/04/26 06:40:50 INFO DiskBlockManager: Created local directory at /private/var/folders/mn/3cdwpt_d25db6hcpzm9_4t380000gn/T/blockmgr-83e624b1-3077-45fa-a5d0-a804f524b888
+19/04/26 06:40:51 INFO MemoryStore: MemoryStore started with capacity 366.3 MB
+19/04/26 06:40:51 INFO SparkEnv: Registering OutputCommitCoordinator
+19/04/26 06:40:51 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+19/04/26 06:40:52 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://10.0.0.20:4040
+19/04/26 06:40:52 INFO Executor: Starting executor ID driver on host localhost
+19/04/26 06:40:52 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 53903.
+19/04/26 06:40:52 INFO NettyBlockTransferService: Server created on 10.0.0.20:53903
+19/04/26 06:40:52 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+19/04/26 06:40:53 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 10.0.0.20, 53903, None)
+19/04/26 06:40:53 INFO BlockManagerMasterEndpoint: Registering block manager 10.0.0.20:53903 with 366.3 MB RAM, BlockManagerId(driver, 10.0.0.20, 53903, None)
+19/04/26 06:40:53 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 10.0.0.20, 53903, None)
+19/04/26 06:40:53 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 10.0.0.20, 53903, None)
+19/04/26 06:40:54 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/Users/sarathchandra/Desktop/reference-apps/logs_analyzer/chapter1/python/databricks/apps/logs/spark-warehouse/').
+19/04/26 06:40:54 INFO SharedState: Warehouse path is 'file:/Users/sarathchandra/Desktop/reference-apps/logs_analyzer/chapter1/python/databricks/apps/logs/spark-warehouse/'.
+19/04/26 06:40:57 INFO StateStoreCoordinatorRef: Registered StateStoreCoordinator endpoint
+Fetching jpegs
++----------------------------------------------------------------------------------------------------------------------------------+-----+
+|line                                                                                                                              |count|
++----------------------------------------------------------------------------------------------------------------------------------+-----+
+|10.134.188.231 - - [16/Aug/2011:09:39:46 -0700] "GET /images/filmpics/0000/1337/RA2_1183.JPG HTTP/1.1" 200 4784344                |5    |
+|10.213.99.117 - - [12/Apr/2011:11:57:42 -0700] "GET /images/filmpics/0000/1819/BNA0407_4850.JPG HTTP/1.1" 200 663024              |3    |
+|10.124.48.117 - - [22/May/2010:15:41:12 -0700] "GET /images/filmpics/0000/1629/Harpoon_2d.JPG HTTP/1.1" 200 165106                |3    |
+|10.157.79.88 - - [13/Apr/2011:05:31:50 -0700] "GET /images/filmmediablock/566/S_1-1_0013.JPG HTTP/1.1" 200 148404                 |3    |
+|10.134.188.231 - - [16/Aug/2011:09:39:45 -0700] "GET /images/filmpics/0000/1337/RA2_1183.JPG HTTP/1.1" 200 4784344                |3    |
+|10.157.79.88 - - [13/Apr/2011:05:31:50 -0700] "GET /images/filmmediablock/566/S_31A_0010.JPG HTTP/1.1" 200 277114                 |3    |
+|10.110.109.112 - - [11/May/2011:10:49:38 -0700] "GET /images/filmmediablock/290/Harpoon_2d.JPG HTTP/1.1" 200 90706                |3    |
+|10.157.79.88 - - [13/Apr/2011:05:31:51 -0700] "GET /images/filmpics/0000/4887/S_1-1_0013_thumb.JPG HTTP/1.1" 200 69458            |3    |
+|10.184.144.95 - - [03/Mar/2011:13:34:41 -0800] "GET /images/filmpics/0000/1435/Homicide_-_Series_5.1.JPG HTTP/1.1" 200 478309     |2    |
+|10.242.219.167 - - [03/May/2010:12:37:48 -0700] "GET /images/filmpics/0000/1863/_MG_1069_thumb.JPG HTTP/1.1" 200 50566            |2    |
+|10.245.18.227 - - [19/Oct/2011:00:18:02 -0700] "GET /images/filmpics/0000/1449/Homicide_6_thumb.JPG HTTP/1.1" 200 34011           |2    |
+|10.242.219.167 - - [03/May/2010:12:37:48 -0700] "GET /images/filmpics/0000/1865/_MG_2155_thumb.JPG HTTP/1.1" 200 60728            |2    |
+|10.59.167.240 - - [03/Jul/2010:20:26:13 -0700] "GET /images/filmpics/0000/1439/Homicide_-_Series_5.5_thumb.JPG HTTP/1.1" 200 23550|2    |
+|10.205.212.249 - - [24/Dec/2010:03:03:08 -0800] "GET /images/filmpics/0000/1691/DSCF2655_thumb.JPG HTTP/1.1" 200 119625           |2    |
+|10.60.60.194 - - [20/May/2010:15:42:13 -0700] "GET /images/filmmediablock/290/Harpoon_2d.JPG HTTP/1.1" 200 90706                  |2    |
+|10.96.155.146 - - [20/Feb/2011:11:23:12 -0800] "GET /images/filmpics/0000/1297/DOTD_4_thumb.JPG HTTP/1.1" 200 16023               |2    |
+|10.11.112.220 - - [23/Aug/2010:23:48:01 -0700] "GET /images/filmmediablock/297/_NPC0014.JPG HTTP/1.1" 200 312184                  |2    |
+|10.90.39.154 - - [05/Apr/2011:07:39:24 -0700] "GET /images/filmpics/0000/1629/Harpoon_2d.JPG HTTP/1.1" 200 165106                 |2    |
+|10.119.246.186 - - [30/Jul/2011:12:22:21 -0700] "GET /images/filmpics/0000/3025/1_thumb.JPG HTTP/1.1" 200 40839                   |2    |
+|10.102.128.86 - - [04/Nov/2010:12:59:25 -0700] "GET /images/filmpics/0000/2449/_MG_0173_thumb.JPG HTTP/1.1" 200 29895             |2    |
++----------------------------------------------------------------------------------------------------------------------------------+-----+
+only showing top 20 rows
+
+Fetching gifs
++----------------------------------------------------------------------------------------------------+-----+
+|line                                                                                                |count|
++----------------------------------------------------------------------------------------------------+-----+
+|10.197.79.249 - - [01/Feb/2010:17:49:24 -0800] "GET /assets/img/x.gif HTTP/1.1" 304 -               |6    |
+|10.97.159.148 - - [13/Sep/2010:07:14:50 -0700] "GET /assets/img/x.gif HTTP/1.1" 200 49              |6    |
+|10.97.159.148 - - [13/Sep/2010:07:14:48 -0700] "HEAD /assets/img/x.gif HTTP/1.1" 200 -              |5    |
+|10.97.159.148 - - [13/Sep/2010:07:14:47 -0700] "HEAD /assets/img/x.gif HTTP/1.1" 200 -              |4    |
+|10.198.67.27 - - [12/Aug/2010:03:32:42 -0700] "GET /assets/img/x.gif HTTP/1.1" 200 49               |4    |
+|10.97.159.148 - - [13/Sep/2010:07:14:49 -0700] "GET /assets/img/x.gif HTTP/1.1" 200 49              |4    |
+|10.76.190.121 - - [25/Apr/2011:14:08:46 -0700] "GET /assets/img/search-button.gif HTTP/1.1" 200 168 |4    |
+|10.157.79.88 - - [13/Apr/2011:05:31:51 -0700] "GET /assets/img/x.gif HTTP/1.1" 200 49               |3    |
+|10.198.67.27 - - [12/Aug/2010:03:32:38 -0700] "HEAD /assets/img/x.gif HTTP/1.1" 200 -               |3    |
+|10.198.67.27 - - [12/Aug/2010:03:33:00 -0700] "GET /assets/img/x.gif HTTP/1.1" 200 49               |3    |
+|10.229.144.240 - - [16/Jul/2010:07:58:50 -0700] "GET /assets/img/x.gif HTTP/1.1" 200 49             |3    |
+|10.168.7.78 - - [18/Oct/2010:02:20:01 -0700] "GET /assets/img/x.gif HTTP/1.1" 200 49                |2    |
+|10.106.41.211 - - [10/Feb/2011:01:21:54 -0800] "GET /assets/img/search-button.gif HTTP/1.1" 200 168 |2    |
+|10.26.129.234 - - [28/Jul/2011:18:13:28 -0700] "GET /assets/img/x.gif HTTP/1.1" 200 49              |2    |
+|10.118.93.1 - - [08/Dec/2010:07:47:43 -0800] "GET /assets/img/x.gif HTTP/1.1" 200 49                |2    |
+|10.228.208.140 - - [11/Oct/2011:14:15:50 -0700] "GET /assets/img/search-button.gif HTTP/1.1" 200 168|2    |
+|10.243.237.66 - - [26/Jun/2011:10:29:00 -0700] "GET /assets/img/search-button.gif HTTP/1.1" 200 168 |2    |
+|10.194.74.106 - - [05/Oct/2011:09:46:10 -0700] "GET /assets/img/x.gif HTTP/1.1" 200 49              |2    |
+|10.31.77.18 - - [06/May/2010:03:07:29 -0700] "GET /assets/img/x.gif HTTP/1.1" 200 49                |2    |
+|10.45.47.207 - - [31/Oct/2010:12:03:11 -0700] "GET /assets/img/x.gif HTTP/1.1" 200 49               |2    |
++----------------------------------------------------------------------------------------------------+-----+
+only showing top 20 rows
+
+Fetching rest of the files like .php  etc
++----------------------------------------------------------------------------------------------+-----+
+|line                                                                                          |count|
++----------------------------------------------------------------------------------------------+-----+
+|10.29.172.58 - - [03/Apr/2010:02:17:22 -0700] "GET /index.php HTTP/1.1" 200 14162             |21   |
+|10.34.60.9 - - [15/Sep/2011:04:46:21 -0700] "GET /index.php HTTP/1.1" 200 20354               |17   |
+|10.34.60.9 - - [15/Sep/2011:04:46:20 -0700] "GET /index.php HTTP/1.1" 200 20354               |15   |
+|10.34.60.9 - - [15/Sep/2011:04:46:22 -0700] "GET /index.php HTTP/1.1" 200 20354               |14   |
+|10.29.172.58 - - [03/Apr/2010:02:17:23 -0700] "GET /index.php HTTP/1.1" 200 14162             |13   |
+|10.115.80.23 - - [24/Jan/2010:07:12:52 -0800] "GET /index.php HTTP/1.1" 200 14928             |11   |
+|10.34.60.9 - - [19/Sep/2011:02:07:45 -0700] "GET /index.php HTTP/1.1" 200 20223               |10   |
+|10.34.60.9 - - [15/Sep/2011:04:46:19 -0700] "GET /index.php HTTP/1.1" 200 20354               |10   |
+|10.34.60.9 - - [15/Sep/2011:04:46:23 -0700] "GET /index.php HTTP/1.1" 200 20354               |10   |
+|10.190.48.76 - - [13/Nov/2011:12:20:09 -0800] "GET /index.php HTTP/1.1" 200 17566             |9    |
+|10.34.60.9 - - [19/Sep/2011:02:07:43 -0700] "GET /index.php HTTP/1.1" 200 20223               |8    |
+|10.43.80.201 - - [25/Apr/2011:16:52:48 -0700] "HEAD /displaytitle.php?id=561 HTTP/1.0" 200 -  |8    |
+|10.34.60.9 - - [19/Sep/2011:02:07:44 -0700] "GET /index.php HTTP/1.1" 200 20223               |8    |
+|10.34.60.9 - - [19/Sep/2011:02:07:42 -0700] "GET /index.php HTTP/1.1" 200 20223               |7    |
+|10.43.80.201 - - [25/Apr/2011:16:49:44 -0700] "HEAD /displaytitle.php?id=561 HTTP/1.0" 200 -  |6    |
+|10.50.212.139 - - [27/Nov/2011:03:21:39 -0800] "GET /index.php HTTP/1.1" 200 18600            |6    |
+|10.72.147.187 - - [02/Feb/2011:04:40:20 -0800] "GET /displaytitle.php?id=18 HTTP/1.1" 200 4272|6    |
+|10.34.60.9 - - [15/Sep/2011:04:46:18 -0700] "GET /index.php HTTP/1.1" 200 20354               |6    |
+|10.191.248.137 - - [25/Apr/2011:16:52:48 -0700] "HEAD /displaytitle.php?id=561 HTTP/1.0" 200 -|6    |
+|10.82.32.69 - - [14/Sep/2010:16:47:27 -0700] "GET /info.php?id=' HTTP/1.1" 200 538            |5    |
++----------------------------------------------------------------------------------------------+-----+
+only showing top 20 rows
+
+>>>>> Output <<<<<<<<
+>>>>> 013774228, sarathchandra makkena <<<<<<<<
+Number of ‘.gif’ : 
+[73787]
+Number of ‘.jpg’ :
+2885442
+Number of other requests like ‘.php’
+1518614
